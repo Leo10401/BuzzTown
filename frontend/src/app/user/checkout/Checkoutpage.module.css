@@ -1,0 +1,82 @@
+.wrapper {
+    display: flex;
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 4px;
+    border: 1px solid #e0e0e0;
+    flex-direction: row;
+  
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
+  
+  .form {
+    flex: 1;
+    padding: 32px;
+    padding-left: 64px;
+    border-left: 0;
+  
+    @media (max-width: 768px) {
+      padding: 16px;
+      padding-left: 16px;
+    }
+  }
+  
+  .fields {
+    margin-top: -12px;
+  }
+  
+  .fieldInput {
+    flex: 1;
+  
+    & + & {
+      margin-left: var(--mantine-spacing-md);
+  
+      @media (max-width: 768px) {
+        margin-left: 0;
+        margin-top: var(--mantine-spacing-md);
+      }
+    }
+  }
+  
+  .fieldsGroup {
+    display: flex;
+    flex-direction: row;
+  
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
+  
+  .contacts {
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 16px;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid transparent;
+    padding: 32px;
+    flex: 0 0 280px;
+  
+    @media (max-width: 768px) {
+      margin-bottom: 16px;
+      padding-left: 16px;
+    }
+  }
+  
+  .title {
+    margin-bottom: 48px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+  
+    @media (max-width: 768px) {
+      margin-bottom: var(--mantine-spacing-xl);
+    }
+  }
+  
+  .control {
+    @media (max-width: 768px) {
+      flex: 1;
+    }
+  }

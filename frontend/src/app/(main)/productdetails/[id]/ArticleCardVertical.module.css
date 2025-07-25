@@ -1,0 +1,17 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+.card {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .title {
+    font-weight: bold;
+    font-family:
+      Greycliff CF,
+      var(--mantine-font-family);
+    line-height: 1.2;
+  }
+  
+  .body {
+    padding: var(--mantine-spacing-md);
+  }
+  

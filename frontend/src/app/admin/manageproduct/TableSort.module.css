@@ -1,0 +1,20 @@
+.th {
+    padding: 0;
+}
+
+.control {
+    width: 100%;
+    padding: 4px 16px;
+}
+
+.icon {
+    width: 21px;
+    height: 21px;
+    border-radius: 21px;
+}
+
+.td {
+    padding: 0;
+    color: white;
+    background-color: white;
+}
